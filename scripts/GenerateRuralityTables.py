@@ -24,19 +24,17 @@ def bin_rurality(secondary_code):
 #### Read in
 
 # Ruralities
-cdc_rurality = pd.read_csv('../data/rurality/NCHSURCodes2013.csv',
+cdc_rurality = pd.read_csv('../data/raw/rurality/NCHSURCodes2013.csv',
                            dtype={'FIPS code':str})
-ruca_rurality = pd.read_csv('../data/rurality/ruca2010revised.csv',\
+ruca_rurality = pd.read_csv('../data/raw/rurality/ruca2010revised.csv',\
                             dtype={'State-County FIPS Code':str, 'Primary RUCA Code 2010':str})
 
 far_rurality = pd.read_csv('../data/rurality/FARcodesZIPdata2010WithAKandHI.csv',
                            dtype={'ZIP':str})
 
-# Helper datasets
-zip_county_crosswalk = pd.read_csv('../data/crosswalks/ZIP_COUNTY_122010.csv',
+# Helper dataset
+zip_county_crosswalk = pd.read_csv('../data/raw/crosswalks/ZIP_COUNTY_122010.csv',
                                    dtype={'ZIP':str, 'COUNTY':str})
-arc_counties = pd.read_csv('../data/arc_counties.csv',
-                           dtype={'FIPS':str})
 
 #### Transform and select attributes
 
@@ -80,4 +78,4 @@ rurality = rurality[rurality['GEOID'].isin(arc_counties['FIPS'])]
 ## TODO: Pivot to tidy format.
 
 #### Save
-rurality.to_csv('../data/arc_rurality.csv', index=False)
+rurality.to_csv('../data/rurality.csv', index=False)
