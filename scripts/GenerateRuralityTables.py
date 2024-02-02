@@ -17,7 +17,7 @@ def bin_rurality(secondary_code):
         case 1.0 | 1.1:
             return 'RucaUrban'
         case 2.0 | 2.1 | 4.0 | 4.1:
-            return 'RucaSurban'
+            return 'RucaSuburban'
         case _:
             return 'RucaRural'
 
@@ -29,7 +29,7 @@ cdc_rurality = pd.read_csv('../data/raw/rurality/NCHSURCodes2013.csv',
 ruca_rurality = pd.read_csv('../data/raw/rurality/ruca2010revised.csv',\
                             dtype={'State-County FIPS Code':str, 'Primary RUCA Code 2010':str})
 
-far_rurality = pd.read_csv('../data/rurality/FARcodesZIPdata2010WithAKandHI.csv',
+far_rurality = pd.read_csv('../data/raw/rurality/FARcodesZIPdata2010WithAKandHI.csv',
                            dtype={'ZIP':str})
 
 # Helper dataset
@@ -73,9 +73,9 @@ rurality = far_rurality\
     .merge(ruca_rurality, how='inner', on='GEOID')\
     .merge(cdc_rurality, how='inner', on='GEOID')
 
-rurality = rurality[rurality['GEOID'].isin(arc_counties['FIPS'])]
-
 ## TODO: Pivot to tidy format.
+
+rurality = pd.melt(rurality, id_vars='GEOID', value_vars=['CdcRurality', 'RucaRural', 'RucaSuburban', 'RucaUrban', 'FarP'])
 
 #### Save
 rurality.to_csv('../data/rurality.csv', index=False)
