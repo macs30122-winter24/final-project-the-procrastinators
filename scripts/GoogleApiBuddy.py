@@ -8,7 +8,6 @@
 import pandas as pd
 import requests
 
-
 class GoogleApiBuddy:
     '''
     Helper class for interacting with Google API.
@@ -17,6 +16,10 @@ class GoogleApiBuddy:
     '''
 
     def __init__(self, API_KEY):
+        '''
+        Args: API_KEY (str): Your Google API_KEY. (Be sure to store it
+          somewhere safe!)
+        '''
         self.API_KEY = API_KEY
 
     def geocode_point(self, address='', city='', state=''):
@@ -39,16 +42,18 @@ class GoogleApiBuddy:
                   'address':f'{address} {city} {state}',
                   'key':self.API_KEY}
         req = requests.get(url, params=params)
-        location = req.json()['results'][0]['geometry']['location']
-        lat, long = location['lat'], location['lng']
-        
-        # If we failed to get it the first time, try it again
-        # without the city
-        if lat == None or long == None:
-            print(f'Full address attempt for {address} {city} {state} returned {lat}, {long}')
+        try:
+            location = req.json()['results'][0]['geometry']['location']
+            lat, long = location['lat'], location['lng']
+        except IndexError:
+            if address == '':
+                print(f"Failed to geocode {city} {state}, returning (-999), (-999)")
+                return (-999, -999)
+
+            print(f"Initial req didn't take for {address} {city} {state}, trying {city} {state} only")
             return self.geocode_point(city=city, state=state)
         
-        return (location['lat'], location['lng'])
+        return (lat, long)
     
     def geocode_addresses(self, addresses, ids=None):
         '''
@@ -61,25 +66,29 @@ class GoogleApiBuddy:
             can be be excluded by passing ''. 
             If a DataFrame, then a DataFrame with an "address", "city", and "state"
             column.
-          ids (optional): list of id variables that will be returned as 
-            part of the tuples. Must be same length as the addresses list.
-            if no id is supplied, uses concat'd addresses as id
+          ids (optional): Either list of id variables that will be returned as 
+            part of the tuples, or string name of the ID variable column
+            If list, must be same length as the addresses list.
+            If no id is supplied, uses concat'd addresses as id
         
         Returns: Pandas DataFrame containing ID, Lat, Long
         '''
 
         # Assertions to prevent misuse -- no one wants to waste their API funds!
-        assert (not ids) or (len(ids) == len(addresses)), 'ids list must be same length as addresses'
-        assert type(addresses) == list or type(addresses) == pd.DataFrame, 'Addresses must be a list of string tuples or a DataFrame'
+        assert (not ids) or (type(ids) == str) or (len(ids) == len(addresses)), 'ids list must be same length as addresses'
+#        assert type(addresses) == list or type(addresses) == pd.DataFrame, 'Addresses must be a list of string tuples or a DataFrame'
         if type(addresses) == pd.DataFrame:
             assert 'Address' in addresses.columns, "DataFrame must have 'address' column"
             assert 'State' in addresses.columns, "DataFrame must have 'state' column"
             assert 'City' in addresses.columns, "DataFrame must have 'city' column"
+        
+        if type(ids) == str:
+            ids = addresses[ids]
 
         if type(addresses) == pd.DataFrame:
             addresses = [(address[1], address[2], address[3]) for address in addresses[['Address', 'City', 'State']].itertuples()]
 
-        if not ids:
+        if ids is None:
             ids = [' '.join(address) for address in addresses]
 
         coordinates = {'id':[], 'lat':[], 'long':[]}

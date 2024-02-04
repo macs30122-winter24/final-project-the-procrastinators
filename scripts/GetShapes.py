@@ -20,5 +20,6 @@ county_subs = pygris.county_subdivisions(state=states.loc[0, 'STATEFP'], cb=True
 for state in states.loc[1:, 'STATEFP']:
     print(state)
     county_subs = pd.concat([county_subs, pygris.county_subdivisions(state=state, cb=True)], ignore_index=True)
+
 county_subs = county_subs[['GEOID', 'NAME', 'NAMELSAD', 'STATE_NAME', 'geometry']]
 county_subs.to_file('../data/shapes/county_subdivisions.shp')
