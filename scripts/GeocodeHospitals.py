@@ -1,6 +1,6 @@
 ### Author: Ashlynn Wimer
 ### Date: 2/2/2024
-### About: Script for geocoding closed, open, and converted hospitals.
+### About: Script for geocoding closed, open, and REH hospitals datasets.
 ###        Utilizes a quick wrapper I wrote for ease of geocoding.
 import pandas as pd
 from GoogleApiBuddy import GoogleApiBuddy
