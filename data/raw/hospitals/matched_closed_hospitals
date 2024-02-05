@@ -1,0 +1,141 @@
+Hospital,Address,City,State,Zip,MedicarePayment,NumberOfBeds,ClosureMonth,ClosureYear,Converted,HID
+St. Mark's Medical Center,ONE ST MARK'S PLACE,LA GRANGE,TX,78945,REH,0.0,October,2023.0,0.0,H670004
+Herington Hospital,100 E HELEN STREET,HERINGTON,KS,67449,CAH,15.0,October,2023.0,0.0,H171340
+Spectrum Health Kelsey Hospital,418 WASHINGTON AVE,LAKEVIEW,MI,48850,CAH,25.0,October,2023.0,0.0,H231317
+Indiana University Health Blackford Hospital,410 Pilgrim Blvd,Hartford City,IN,47348,CAH,15.0,October,2023.0,1.0,H151302
+Martin General Hospital,310 S MCCASKEY RD,WILLIAMSTON,NC,27892,MDH,43.0,August,2023.0,0.0,H340133
+Patients Choice Medical Center of Smith County,347 MAGNOLIA DRIVE,RALEIGH,MS,39153,PPS,19.0,July,2023.0,0.0,H250163
+St. Margaret's Health - Spring Valley,600 E 1ST ST,SPRING VALLEY,IL,61362,MDH,44.0,June,2023.0,0.0,H140143
+UPMC Lock Haven,24 CREE DRIVE,LOCK HAVEN,PA,17745,MDH,25.0,March,2023.0,1.0,H390071
+St. Margaret's Health - Peru,925 West St,Peru,IL,61354,MDH,49.0,January,2023.0,0.0,H140234
+Ascension St. Vincent Dunn,1600 23RD STREET,BEDFORD,IN,47421,CAH,25.0,December,2022.0,0.0,H151335
+Blessing Health Keokuk,1600 MORGAN STREET,KEOKUK,IA,52632,MDH,49.0,September,2022.0,0.0,H160008
+Audrain Community Hospital,620 E MONROE,MEXICO,MO,65265,SCH,40.0,March ,2022.0,0.0,H260064
+Callaway Community Hospital,10 SOUTH HOSPITAL DRIVE,FULTON,MO,65251,PPS,18.0,March ,2022.0,0.0,H260209
+Galesburg Cottage Hospital,695 N KELLOGG ST,GALESBURG,IL,61401,MDH,96.0,January,2022.0,1.0,H140040
+MercyOne Oakland Medical Center,601 EAST SECOND ST,OAKLAND,NE,68045,CAH,16.0,July,2021.0,1.0,H281321
+Perry Community Hospital,2718 SQUIRREL HOLLOW DRIVE,Linden,TN,37096,PPS,25.0,November,2020.0,0.0,H440040
+Northridge Medical Center,70 Medical Center Dr,Commerce,GA,30529,PPS,27.0,October,2020.0,1.0,H110040
+Southwest Georgia Regional Medical Center,361 Randolph St,Cuthbert,GA,39840,CAH,25.0,October,2020.0,0.0,H111300
+Shands Lake Shore Regional Medical Center,368 NE FRANKLIN ST,LAKE CITY,FL,32055,PPS,87.0,August,2020.0,0.0,H100102
+Cumberland River Hospital,100 OLD JEFFERSON ST,Celina,TN,38551,PPS,1.0,August,2020.0,0.0,H440141
+Bluefield Regional Medical Center,500 Cherry St,Bluefield,WV,24701,MDH,57.0,July,2020.0,1.0,H510071
+Saint Luke's Cushing Hospital,711 Marshall St,Leavenworth,KS,66048,PPS,24.0,July,2020.0,1.0,H170009
+Shands Live Oak Regional Medical Center,1100 SW 11th St,Live Oak,FL,32060,CAH,25.0,April,2020.0,1.0,H101301
+Shands Starke Regional Medical Center,922 E Call St,Starke,FL,32091,CAH,25.0,April,2020.0,1.0,H101310
+Williamson Memorial Hospital,859 Alderson St,Williamson,WV,25661,PPS,27.0,April,2020.0,1.0,H510077
+Decatur County General Hospital,969 Tennessee Ave S,Parsons,TN,38363,MDH,40.0,April,2020.0,0.0,H440070
+Sumner Community Hospital,1323 North A Street,Wellington,KS,67152,PPS,42.0,March,2020.0,0.0,H170039
+Edward W. McCready Memorial Hospital,201 Hall Hwy,Crisfield,MD,21817,PPS,3.0,March,2020.0,1.0,H210045
+Mayo Clinic Health System-Springfield,625 Jackson Ave N,Springfield,MN,56087,CAH,24.0,March,2020.0,1.0,H241352
+Central Hospital of Bowie,705 E Greenwood Ave,Bowie,TX,76230,MDH,37.0,February,2020.0,1.0,H450497
+UPMC Susquehanna Sunbury,350 N 11th St,Sunbury,PA,17801,MDH,70.0,January,2020.0,1.0,H390084
+Pinnacle Regional Hospital,17651 Hwy B,Boonville,MO,65233,PPS,46.0,January,2020.0,0.0,H260004
+Mountain View Regional Hospital,"310 Third Street, NE",Norton,VA,24273,PPS,20.0,January,2020.0,1.0,H490027
+Ellwood City Medical Center ,724 Perishing Street,Ellwood City,PA,16117,MDH,52.0,December,2019.0,0.0,H390008
+Black River Community Medical Center,217 PHYSICIANS PARK DRIVE,POPLAR BLUFF,MO,63901,PPS,3.0,August,2019.0,1.0,H260119
+Texas General - Van Zandt Regional Medical Center,707 N WALDRIP ST,Grand Saline,TX,75140,PPS,1.0,August,2019.0,0.0,H450283
+Hamlin Memorial Hospital,632 N W SECOND STREET,Hamlin,TX,79520,MDH,25.0,July,2019.0,1.0,H450243
+Sitka Community Hospital,209 MOLLER DRIVE,Sitka,AK,99835,CAH,12.0,July,2019.0,1.0,H21303
+Chillicothe Hospital,303 AVENUE I,Chillicothe,TX,79225,CAH,21.0,July,2019.0,1.0,H451326
+Fayette Regional Health System,1941 VIRGINIA AVE,Connersville,IN,47331,PPS,45.0,July,2019.0,1.0,H150064
+Albert Lea - Mayo Clinic Health System,404 WEST FOUNTAIN STREET,Albert Lea,MN,56007,SCH,142.0,June,2019.0,1.0,H240043
+Regional General Hospital,125 SW 7TH ST,Williston,FL,32696,PPS,20.0,June,2019.0,0.0,H100139
+Jamestown Regional Medical Center,436 CENTRAL AVENUE WEST,Jamestown,TN,38556,SCH,54.0,June,2019.0,0.0,H440083
+Mercy Hospital El Reno,2115 PARKVIEW DRIVE,El Reno,OK,73036,PPS,48.0,April,2019.0,1.0,H370011
+Takoma Regional Hospital,1420 TUSCULUM BOULEVARD,Greeneville,TN,37745,MDH,73.0,April,2019.0,1.0,H440025
+Horton Community Hospital,240 WEST 18TH STREET,Horton,KS,66439,CAH,15.0,March,2019.0,0.0,H171320
+Georgiana Medical Center,515 N MIRANDA AVENUE,Georgiana,AL,36033,MDH,22.0,March,2019.0,0.0,H10047
+I-70 Community Hospital,"105 HOSPITAL DRIVE, BUILDING B",Sweet Springs,MO,65351,CAH,15.0,February,2019.0,0.0,H261334
+Oswego Community Hosp,800 BARKER DRIVE,Oswego,KS,67356,CAH,12.0,February,2019.0,0.0,H171302
+Doctors Hospital at Deer Creek,815 SOUTH 10TH STREET,Leesville,LA,71446,PPS,10.0,January,2019.0,0.0,H190164
+Mercy Hospital Fort Scott,401 WOODLAND HILLS BLVD,Fort Scott,KS,66701,MDH,43.0,December,2018.0,1.0,H170058
+Fairfield Memorial Hospital,321 BYPASS PO BOX 620,Winnsboro,SC,29180,CAH,25.0,December,2018.0,0.0,H421302
+Little River Healthcare Cameron Hospital,806 N CROCKETT,Cameron,TX,76520,PPS,6.0,December,2018.0,1.0,H450770
+Little River Healthcare Rockdale Hospital,1700 BRAZOS,Rockdale,TX,76567,CAH,25.0,December,2018.0,0.0,H451357
+Adventist Health Feather River,5974 PENTZ ROAD,Paradise,CA,95969,MDH,100.0,November,2018.0,0.0,H50225
+Southeast Health Center of Ripley County,109 PLUM ST,Doniphan,MO,63935,MDH,21.0,October,2018.0,1.0,H260080
+Latimer County General Hospital,806 STATE HIGHWAY 2 NORTH,Wilburton,OK,74578,MDH,33.0,October,2018.0,0.0,H370072
+McKenzie Regional Hospital,161 HOSPITAL DRIVE,McKenzie,TN,38201,PPS,29.0,September,2018.0,0.0,H440182
+Sayre Community Hospital,911 HOSPITAL DRIVE,Sayre,OK,73662,PPS,22.0,August,2018.0,0.0,H370103
+Stamford Memorial Hospital,1601 COLUMBIA STREET,Stamford,TX,79553,PPS,22.0,July,2018.0,1.0,H450306
+Twin Rivers Regional Medical Center,1301 FIRST ST,Kennett,MO,63857,PPS,100.0,June,2018.0,0.0,H260015
+Coalinga Regional Medical Center,1191 PHELPS AVENUE,Coalinga,CA,93210,SCH,22.0,May,2018.0,0.0,H50397
+Moses-Ludington Hospital,1019 WICKER STREET,Ticonderoga,NY,12883,CAH,25.0,April,2018.0,1.0,H331306
+Tri-Town Regional Hospital,43 WEST PEARL STREET,Sidney,NY,13838,PPS,4.0,January,2018.0,1.0,H330408
+Our Community Hospital,921 JUNIOR HIGH ROAD,Scotland Neck,NC,27874,CAH,20.0,December,2017.0,1.0,H341302
+Lake Shore Health Care Center – TLC Network,845 ROUTES 5 AND 20,Irving,NY,14081,PPS,25.0,November,2017.0,1.0,H330132
+Sandhills Regional Med Ctr,1000 WEST HAMLET AVENUE,Hamlet,NC,28345,PPS,64.0,November,2017.0,0.0,H340106
+Weimar Medical Center,400 YOUENS DR,Weimar,TX,78962,PPS,38.0,November,2017.0,0.0,H450438
+Pioneer Community Hospital of Patrick County,18688 JEB STUART HIGHWAY,Stuart,VA,24171,CAH,25.0,September,2017.0,0.0,H491306
+Care Regional Medical Ctr,1711 W WHEELER AVENUE,Aransas Pass,TX,78336,PPS,63.0,August,2017.0,0.0,H450605
+East Texas Medical Center-Trinity,317 PROSPECT DR/PO BOX 3169,Trinity,TX,75862,MDH,45.0,August,2017.0,0.0,H450749
+Campbellton-Graceville Hospital,5429 COLLEGE DR,Graceville,FL,32440,CAH,25.0,June,2017.0,0.0,H101302
+Copper Basin Medical Center,HIGHWAY 68,Copperhill,TN,37317,CAH,21.0,May,2017.0,0.0,H441315
+Davie Medical Center – Mocksville,223 HOSPITAL STREET,Mocksville,NC,27028,PPS,10.0,March,2017.0,0.0,H341313
+Gulf Coast Medical Center,10141 US 59 NORTH,Wharton,TX,77488,PPS,94.0,November,2016.0,0.0,H450214
+Nix Community General Hospital,230 WEST MILLER STREET,Dilley,TX,78017,PPS,18.0,September,2016.0,0.0,H450813
+North Georgia Medical Center,1362 SOUTH MAIN STREET,Ellijay,GA,30540,PPS,40.0,June,2016.0,1.0,H110205
+Epic Medical Center,1 HOSPITAL DRIVE,Eufaula,OK,74432,MDH,33.0,May,2016.0,1.0,H370169
+Tennova Healthcare - McNairy Regional,705 E POPLAR AVE,Selmer,TN,38375,MDH,26.0,May,2016.0,0.0,H440051
+SoutheastHEALTH Center of Reynolds County,100 HWY 21 N,Ellington,MO,63638,CAH,21.0,March,2016.0,0.0,H261304
+Memorial Hospital & Physician Group,319 EAST JOSEPHINE,Frederick,OK,73542,SCH,37.0,March,2016.0,1.0,H370051
+New Horizons Medical Center,330 ROLAND AVENUE,Owenton,KY,40359,CAH,25.0,February,2016.0,1.0,H181312
+St. Mary’s Hospital,111  SPRING STREET,Streator,IL,61364,PPS,94.0,January,2016.0,1.0,H140026
+Southern Palmetto Hospital,811  REYNOLDS ROAD,Barnwell,SC,29812,SCH,30.0,January,2016.0,0.0,H420016
+Albany Area Hospital,300 THIRD AVENUE,Albany,MN,56307,CAH,17.0,December,2015.0,0.0,H241331
+Pioneer Community Hospital of Newton,"9421 EAST SIDE DRIVE EXTENSION, POB 299",Newton,MS,39345,CAH,21.0,December,2015.0,0.0,H251332
+Merit Health Natchez-Community Campus,129 JEFFERSON DAVIS BLVD BOX 1203,Natchez,MS,39120,PPS,101.0,November,2015.0,0.0,H250084
+Novant Health Franklin Medical Center,100 HOSPITAL DR BOX 609,Louisburg,NC,27549,PPS,70.0,October,2015.0,1.0,H340036
+Mercy Hosp Independence,800 WEST MYRTLE STREET,Independence,KS,67301,PPS,41.0,October,2015.0,1.0,H170010
+Southern Maine Health Care - Sanford Medical Center,25 JUNE STREET,Sanford,ME,04073,PPS,46.0,October,2015.0,1.0,H200040
+Parkland Health Center-Weber Road,1212 WEBER RD,Farmington,MO,63640,RRC,98.0,August,2015.0,0.0,H264005
+Nye Regional Medical Ctr,825 ERIE MAIN ST (AKA SOUTH MAIN),Tonopah,NV,89049,SCH,10.0,August,2015.0,0.0,H290020
+Cochise Regional Hospital,2174 WEST OAK AVENUE,Douglas,AZ,85607,CAH,25.0,July,2015.0,0.0,H31303
+United Regional Medical Center,481 INTERSTATE DRIVE,Manchester,TN,37355,PPS,53.0,July,2015.0,0.0,H440007
+Parkview Adventist Medical Center,329 MAIN ST,Brunswick,ME,04011,PPS,55.0,June,2015.0,1.0,H200021
+Yadkin Valley Community Hospital,624 WEST MAIN ST,Yadkinville,NC,27055,CAH,15.0,May,2015.0,0.0,H341308
+Hunt Regional Community Hospital of Commerce,2900 STERLING HART DRIVE,Commerce,TX,75428,CAH,24.0,May,2015.0,0.0,H451321
+Parkridge West Hospital,1000 HIGHWAY 28,Jasper,TN,37347,PPS,50.0,April,2015.0,1.0,H440064
+Parkway Regional Hospital,2000 HOLIDAY LANE,Fulton,KY,42041,PPS,48.0,March,2015.0,0.0,H180117
+Kilmichael Hospital,301 LAMAR AVENUE,Kilmichael,MS,39747,MDH,19.0,January,2015.0,1.0,H250051
+East Texas Medical Center Clarksville,3000 W MAIN ST,Clarksville,TX,75426,MDH,43.0,December,2014.0,0.0,H450188
+East Texas Medical Center Mount Vernon,500 S STATE HWY 37,Mt Vernon,TX,75457,MDH,49.0,December,2014.0,1.0,H450373
+Doctors Hospital of Nelsonville,1950 MOUNT ST MARYS DRIVE,Nelsonville,OH,45764,CAH,25.0,October,2014.0,1.0,H361305
+East Texas Medical Center Gilmer,712 NORTH WOOD,Gilmer,TX,75644,PPS,37.0,October,2014.0,0.0,H450884
+Sac-Osage Hospital,700 GIESLER DRIVE,Osceola,MO,64776,SCH,47.0,September,2014.0,0.0,H260147
+Lower Oconee Community Hospital,111 N THIRD STREET,Glenwood,GA,30428,CAH,25.0,June,2014.0,0.0,H111321
+Tilden Community Hosp,"P O BOX 340, 308 WEST 2ND",Tilden,NE,68781,CAH,20.0,June,2014.0,1.0,H281317
+Vidant Pungo Hospital,210 EAST WATER ST,Belhaven,NC,27810,CAH,25.0,June,2014.0,0.0,H341310
+Mid-Valley Hospital,1400 MAIN STREET,Peckville,PA,18452,CAH,25.0,June,2014.0,1.0,H391311
+Nicholas County Hosp,2325 CONCRETE ROAD,Carlisle,KY,40311,CAH,16.0,May,2014.0,0.0,H181303
+Good Shepherd Med Ctr ,404 NORTH KAUFMAN STREET,Linden,TX,75563,CAH,25.0,April,2014.0,0.0,H451302
+North Adams Regional Hospital,71 HOSPITAL AVENUE,North Adams,MA,01247,MDH ,98.0,March,2014.0,1.0,H220051
+Lake Whitney Med Ctr,200 N SAN JACINTO STREET,Whitney,TX,76692,MDH,49.0,March,2014.0,0.0,H450270
+Gibson General Hospital,200 HOSPITAL DR,Trenton,TN,38382,MDH,41.0,January,2014.0,1.0,H440047
+Humboldt General Hosp,3525 CHERE CAROL RD,Humboldt,TN,38343,PPS,42.0,January,2014.0,1.0,H440115
+Wise Regional Health System-Bridgeport,24273 FIFTH AVENUE,Bridgeport,TX,76426,PPS,36.0,December,2013.0,1.0,H670052
+Starr Regional Medical Ctr,886 HIGHWAY 411 NORTH,Etowah,TN,37331,MDH,60.0,December,2013.0,1.0,H440054
+Florala Memorial Hospital,1901 DOCTORS HOSPITAL DRIVE,Florala,AL,36442,PPS,22.0,December,2013.0,1.0,H10066
+St. Andrews Hospital,35 MILES STREET,Boothbay Harbor,ME,04543,CAH,25.0,October,2013.0,1.0,H201302
+Blowing Rock Hospital,418 CHESTNUT DRIVE,Blowing Rock,NC,28605,CAH,25.0,October,2013.0,1.0,H341321
+Charlton Mem Hospital,2449 THIRD STREET,Folkston,GA,31537,CAH,15.0,August,2013.0,0.0,H111315
+Patient’s Choice Medical Center of Humphreys Co,500 CCC ROAD,Belzoni,MS,39038,CAH,25.0,August,2013.0,0.0,H251311
+Shelby Regional Medical Center,602 HURST STREET,Center,TX,75935,PPS,54.0,July,2013.0,0.0,H450839
+Corcoran District Hosp,1310 HANNA AVE,Corcoran,CA,93212,PPS,32.0,March,2013.0,1.0,H50349
+Calhoun Mem Hospital,"55 J E JENNINGS AVE, PO DRAWER R",Arlington,GA,39813,CAH,25.0,March,2013.0,1.0,H111309
+Stewart-Webster Hosp,580 ALSTON STREET,Richland,GA,31825,CAH,25.0,March,2013.0,0.0,H111322
+Elba General Hospital,987 DRAYTON STREET,Elba,AL,36323,MDH,20.0,February,2013.0,1.0,H10027
+Renaissance Hospital Terrell,1551 HWY 34 S,Terrell,TX,75160,PPS,106.0,February,2013.0,0.0,H454006
+Chilton Medical Center,1010 LAY DAM ROAD,Clanton,AL,35045,PPS,27.0,November,2012.0,0.0,H10043
+Riverview Regional Medical Center South,130 LEBANON HIGHWAY,Carthage,TN,37030,CAH,25.0,August,2012.0,1.0,H440186
+Muskogee Community Hospital,2900 NORTH MAIN STREET,Muskogee,OK,74402,PPS,45.0,July,2012.0,1.0,H372022
+Florence Community Healthcare,450 WEST ADAMSVILLE ROAD,Florence,AZ,85132,CAH,25.0,June,2012.0,1.0,H30129
+Hart County Hospital,"138 W GIBSON STREET,  P O BOX 280",Hartwell,GA,30643,MDH,82.0,May,2012.0,0.0,H110059
+Cheboygan Memorial Hospital,748 S MAIN,Cheboygan,MI,49721,CAH,25.0,April,2012.0,1.0,H231336
+Saint Catherine Medical Center Fountain Springs,101 BROAD STREET,Ashland,PA,17921,PPS,53.0,April,2012.0,0.0,H390313
+Bamberg County Memorial Hospital,509 NORTH STREET,Bamberg,SC,29003,PPS,59.0,April,2012.0,0.0,H420056
+Physicians Choice Hospital-Fremont,2390 ENTERPRISE DRIVE,Fremont,OH,43420,PPS,8.0,March,2012.0,1.0,H360156
+Hualapai Mountain Medical Center,3801 SANTA ROSA DRIVE,Kingman,AZ,86401,PPS,70.0,September,2011.0,1.0,H30055
+SW Alabama Med Ctr,33700 HIGHWAY 43,Thomasville,AL,36784,PPS,27.0,August,2011.0,0.0,H10015
+Central Kansas Med Ctr,3515 BROADWAY ST,Great Bend,KS,67530,SCH,41.0,April,2011.0,1.0,H170191
