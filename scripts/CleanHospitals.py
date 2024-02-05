@@ -1,5 +1,5 @@
 ### Author: Ashlynn Wimer
-### Date: 2/3/2024
+### Date: 2/4/2024
 ### About: This script merges the IME_GME hospital datasets,
 ###        the Hospital General Information Dataset, and the 
 ###        closure records to generate a large hospital 
