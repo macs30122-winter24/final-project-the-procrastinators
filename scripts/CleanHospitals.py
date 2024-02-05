@@ -1,10 +1,10 @@
 ### Author: Ashlynn Wimer
 ### Date: 2/3/2024
-### About: This script cleans three hospital datasets:
-###         - Closed Hospitals
-###         - Rural Emergency Hospitals
-###         - Presently open hospitals
-###        and saves the results into three attribute tables.
+### About: This script merges the IME_GME hospital datasets,
+###        the Hospital General Information Dataset, and the 
+###        closure records to generate a large hospital 
+###        attribute table.
+###        It also generates the CSV used for geocoding.
 import pandas as pd
 import re
 
