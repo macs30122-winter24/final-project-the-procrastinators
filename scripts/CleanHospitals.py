@@ -231,10 +231,4 @@ hosp_attr = big_ime_gme.merge(matched.drop(columns=['Hospital', 'Address', 'City
 hosp_attr['HasClosed'] = hosp_attr['HasClosed'].fillna(0)
 
 # Save for personal use
-hosp_attr.to_csv('../data/HospitalAttributesWide.csv', index=False)
-
-# Tidyify and save for project use
-hosp_attr_tidy = hosp_attr.melt(
-    id_vars=['HID', 'Name', 'Address', 'City', 'State', 'Year', 'Zip']
-)
-hosp_attr_tidy.to_csv('../data/HospitalAttributes.csv', index=False)
+hosp_attr.to_csv('../data/HospitalAttributes.csv', index=False)

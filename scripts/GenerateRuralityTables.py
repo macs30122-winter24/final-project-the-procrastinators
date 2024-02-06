@@ -73,11 +73,5 @@ rurality = far_rurality\
     .merge(ruca_rurality, how='inner', on='GEOID')\
     .merge(cdc_rurality, how='inner', on='GEOID')
 
-## TODO: Pivot to tidy format.
-
-rurality = pd.melt(rurality, id_vars='GEOID',\
-                   value_vars=['CdcRurality', 'RucaRural', \
-                               'RucaSuburban', 'RucaUrban', 'FarP'])
-
 #### Save
 rurality.to_csv('../data/rurality.csv', index=False)
