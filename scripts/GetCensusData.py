@@ -1,3 +1,7 @@
+### Author: Dan Gilles
+### Date: 2/5/2024
+### Description: This script gets data from the census API and saves it to a csv file.
+
 import requests                
 import pandas as pd
 
@@ -13,7 +17,8 @@ for census_type in ['acs1', 'acs5', 'acsse']:
             census_vars = 'K200104_001E,K202301_001E,K202301_005E,K201902_001E'
         else:
             census_vars = 'B01001_001E,B23025_001E,B23025_005E,B19013_001E'
-        url = f"https://api.census.gov/data/{year}/acs/{census_type}?get={census_vars}&for=county:*&key={key}"
+        url = f"https://api.census.gov/data/{year}/acs/{census_type}?\
+            get={census_vars}&for=county:*&key={key}"
         r = requests.get(url)
         print(census_type, year, r.status_code)
         if r.status_code != 200:
@@ -24,5 +29,9 @@ for census_type in ['acs1', 'acs5', 'acsse']:
         df = df.drop(columns=['state', 'county'])
         df['Year'] = year
         counties = pd.concat([counties, df])
-    counties = counties.melt(id_vars=['GeoID', 'Year'], value_vars=census_vars.split(','), var_name='Variable', value_name='Value').rename(columns={'Value': 'Estimate'}).sort_values(by=['GeoID', 'Year'])
+    counties = counties.melt(id_vars=['GeoID', 'Year'], \
+                             value_vars=census_vars.split(','), \
+                                var_name='Variable', value_name='Value')\
+                                    .rename(columns={'Value': 'Estimate'})\
+                                        .sort_values(by=['GeoID', 'Year'])
     counties.to_csv(f"../data/census_data_{census_type}.csv", index=False)

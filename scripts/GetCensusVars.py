@@ -1,3 +1,7 @@
+### Author: Dan Gilles
+### Date: 2/5/2024
+### Description: This script gets variable names and explanations from the census API and saves them to a csv file.
+
 import requests                
 import pandas as pd
 
