@@ -14,6 +14,9 @@ for census_type in census_types:
     counties.rename(columns=dict(zip(meanings, meanings2)), inplace=True)
     data = pd.merge(data, counties, on=['Year', 'GEOID'])
 
+rurality = pd.read_csv("../data/rurality.csv")
+data = pd.merge(data, rurality, on='GEOID', how='left')
+
 data.sort_values(by=['GEOID', 'Year'], inplace=True)
 
 data.to_csv("../data/merged_data.csv", index=False)
