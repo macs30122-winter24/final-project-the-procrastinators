@@ -1,8 +1,8 @@
 ### Author: Dan Gilles
 ### Date: 2/13/2024
-### Description: This script gets the data from the IRS and Census Bureau
-### and merges it into two files, a full dataset with all data and a smaller
-### dataset with only counties having data from every survey.
+### Description: This script gets the data from the IRS, Census Bureau and
+### Rurality and merges it into two files, a full dataset with all data and a 
+### smaller dataset with only counties having data from every survey.
 
 import pandas as pd
 
