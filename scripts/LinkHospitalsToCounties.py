@@ -38,4 +38,3 @@ pd.read_csv('../data/HospitalAttributes.csv')\
     .to_csv('../data/HospitalAttributes.csv', index=False)
 
 geocoded.drop(['id', 'Unnamed: 0', 'geometry'], axis=1).to_csv('../data/HospitalsGeocoded.csv', index=False)
-
