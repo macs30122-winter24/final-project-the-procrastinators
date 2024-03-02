@@ -28,7 +28,7 @@ Our top-level folders contain the following:
 
 * `data`: contains all datasets used for, or created by, analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
 
-* `results`: contains our project presentation(s) and progress report.
+* `results`: contains our project presentations (both [old]() and [revised]()) and progress report.
 
 We exclusively used Python scripts for data wrangling to increase computational reproducibility.
 
