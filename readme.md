@@ -1,6 +1,6 @@
 ### A Brief Introduction
 
-Rural hospitals in the United States are closing at an alarming -- and increasing -- rate, with over 140 rural hospitals having closed over from 2011-2021 alone. These closures have a variety of negative impacts on surrounding communities, diminishing access to medical care and removing a vital economic hub. 
+Rural hospitals in the United States are closing at an alarming -- and increasing -- rate. These closures have a variety of negative impacts on surrounding communities, diminishing access to medical care and removing a vital economic hub. 
 
 Multiple aspects of rural hospital closures are currently understudied or unknown. First, many studies assume that rural hospitals either fully close or remain open, without leaving room for any middle options. Nonetheless, rural hospital failures do not necessarily have to result in a full closure but can also result in conversions (also called partial closures) in which the facility is turned into a smaller variety of medical facility, such as an urgent care or nursing facility. Facility conversion could provide an avenue for failing hospitals to continue providing some services to their community, which may dampen the impact of a closure. 
 
@@ -28,7 +28,7 @@ Our top-level folders contain the following:
 
 * `data`: contains all datasets used for, or created by, analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
 
-* `results`: contains our project presentations (both [old]() and [revised]()) and progress report.
+* `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/The%20Procrastinator's%20Final%20Procrastination.pdf) and [revised]()) and progress report.
 
 We exclusively used Python scripts for data wrangling to increase computational reproducibility.
 
