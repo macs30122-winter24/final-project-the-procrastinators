@@ -26,7 +26,7 @@ Our top-level folders contain the following:
 
 * `scripts`: contains all scripts used to acquire, wrangle, and transform our datasets.
 
-* `data`: contains all datasets used for, or created by, analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
+* `data`: contains all datasets created for or by our analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
 
 * `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/The%20Procrastinator's%20Final%20Procrastination.pdf) and [revised]()) and progress report.
 
