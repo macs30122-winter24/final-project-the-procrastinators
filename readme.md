@@ -71,11 +71,11 @@ Ashlynn Wimer:
 
 Dan Gilles:
 * Wrote the following scripts:
-  * 'GetCensusData.py': Acquires ACS1, ACS5 and ACSSE data on population, income and unemployment from the years 2011-2022 from the Census API
-  * 'GetCensusVars.py': Saves the census variables and their explanations to a CSV file
-  * 'MergeData.py': Gets the data from the IRS, Census Bureau and Rurality and merges it into a full census-level dataset
-  * 'JoinData.py': Joins the census-level dataset with the hospital dataset to create our final dataset for analysis
-* Visualized and created models to determine the differences between closed and unclosed hospitals ('Modelling.ipynb')
+  * `GetCensusData.py`: Acquires ACS1, ACS5 and ACSSE data on population, income and unemployment from the years 2011-2022 from the Census API
+  * `GetCensusVars.py`: Saves the census variables and their explanations to a CSV file
+  * `MergeData.py`: Gets the data from the IRS, Census Bureau and Rurality and merges it into a full census-level dataset
+  * `JoinData.py`: Joins the census-level dataset with the hospital dataset to create our final dataset for analysis
+* Visualized and created models to determine the differences between closed and unclosed hospitals (`Modelling.ipynb`)
 * Slides for own portions of project 
 
 Xuzhou Ding:
