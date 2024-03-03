@@ -58,7 +58,7 @@ Required dependencies can be found in `requirements.txt`.
 
 Ashlynn Wimer:
 * Wrote the following scripts:
-  * `CleanHospitals.py`: Script that performs a record linkage across our hospital datasets to create a hospital table.
+  * `CleanHospitals.py`: Script that performs a record linkage across our (shockingly messy) hospital datasets to create a hospital table.
   * `GenerateRuralityTables.py`: Script which creates county level rurality indicators based upon the tract and zip level USDA ERS county level indicators, before merging them with the CDC Rurality indicators.
   * `GeocodeHospitals.py`: Script which geocodes the hospitals from the `CleanHospitals` script
   * `GetShapes.py`: Script which acquires county shapefiles.
