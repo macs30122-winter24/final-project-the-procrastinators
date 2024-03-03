@@ -8,7 +8,7 @@ Secondly, although rural hospital closures increase outmigration pressure and de
 
 Lastly, given the increasing rate of rural hospital closures, predicting rural hospital closures could prove fruitful to help prevent closures from occurring in the first place, although litle work has been done in this area.
 
-Towards addressing these issues, we proposed and addressed three research questions for this project:
+Towards addressing these issues, we proposed and addressed two research questions for this project:
 
 1. To what extent do rural hospital closures and conversions impact migration trends in their surrounding counties?
 
@@ -16,7 +16,7 @@ Towards addressing these issues, we proposed and addressed three research questi
 
 We address the first research question through the usage of a difference-in-difference design, and find that rural hospital closures and conversion have little to no impact on migration behavior in their home county. This indicates that rural populations tend to "stay in place," in light of closures, a finding which redoubles the need for increased provision of medical care to rural communities suffering hospital closures.
 
-We address the second research question through <@ DAN AND XUZHOU>
+We address the second research question through the use of statistical and machine learning methods. First, we use logistic regression to determine .... We  find... <@ XUZHOU>. Next, we use machine learning models to identify the top predictors for hospital closure. We find that both hospital features and county features can be used to classify hospitals with around 80% accuracy, suggesting that addressing these features is central to preventing rural hospital closures.
 
 ### Repository Overview
 
@@ -70,5 +70,12 @@ Ashlynn Wimer:
 * Slides for own portions of project (including quick generation of of a reference map through `ReferenceMapMaker.ipynb`)
 
 Dan Gilles:
+* Wrote the following scripts:
+  * 'GetCensusData.py': Acquires ACS1, ACS5 and ACSSE data on population, income and unemployment from the years 2011-2022 from the Census API
+  * 'GetCensusVars.py': Saves the census variables and their explanations to a CSV file
+  * 'MergeData.py': Gets the data from the IRS, Census Bureau and Rurality and merges it into a full census-level dataset
+  * 'JoinData.py': Joins the census-level dataset with the hospital dataset to create our final dataset for analysis
+* Visualized and created models to determine the differences between closed and unclosed hospitals ('Modelling.ipynb')
+* Slides for own portions of project 
 
 Xuzhou Ding:
