@@ -58,13 +58,15 @@ Required dependencies can be found in `requirements.txt`.
 
 ### Running the Code
 
-1. Download hospital data from ... and then run ...  <@ ASHLYNN>
+1. To generate hospital data, run `CleanHospitals.py` to generate record linked hospital DataFrame. To link hospitals to counties, run `GeocodeHospitals.py`, `GetShapes.py`, and `LinkHospitalstoCounty.py`, in that order. All needed raw data is already stored in `data/raw`.
 
 2. Download IRS data from `\raw\IRS` in repo and then run `IRS_Data.py` to get irs_data.csv.
 
-3. Download ACS data with `GetCensusData.py`. Run `MergeData.py` to combine with IRS data, and then `JoinData.py` to combine with hospital data.
+3. To generate rurality data, run `GenerateRuralityTable.py`. All raw data files are already stored in `data/raw`.
 
-4. Modelling and data analysis can be replicated within `MigrationAnalysis.ipynb`, `Regression.ipynb` and `Modelling.ipynb`.
+4. Download ACS data with `GetCensusData.py`. Run `MergeData.py` to combine with IRS data, and then `JoinData.py` to combine with hospital data.
+
+5. Modelling and data analysis can be replicated within `MigrationAnalysis.ipynb`, `Regression.ipynb` and `Modelling.ipynb`.
 
  
 ### Division of Labor
@@ -75,7 +77,7 @@ Ashlynn Wimer:
   * `GenerateRuralityTables.py`: Script which creates county level rurality indicators based upon the tract and zip level USDA ERS county level indicators, before merging them with the CDC Rurality indicators.
   * `GeocodeHospitals.py`: Script which geocodes the hospitals from the `CleanHospitals` script
   * `GetShapes.py`: Script which acquires county shapefiles.
-  * `GoogleAPIBuddy.py`: Small wrapper class for interacting with Google's geocoding API.
+  * `GoogleAPIBuddy.py`: Small wrapper class for interacting with Google Maps API, currently only handles geocoding.
 * Analyzed the impact of hospital closures and conversions on migration (`MigrationAnalysis.ipynb`)
 * Created initial project proposal
 * Created majority of `readme.md`
@@ -90,6 +92,7 @@ Dan Gilles:
   * `JoinData.py`: Joins the census-level dataset with the hospital dataset to create our final dataset for analysis
 * Visualized and created models to determine the differences between closed and unclosed hospitals (`Modelling.ipynb`)
 * Slides for own portions of project 
+* Edited video into a much nicer format.
 
 Xuzhou Ding:
 * Wrote the following scripts:
