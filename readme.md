@@ -40,7 +40,7 @@ We exclusively used Python scripts for data wrangling to increase computational 
 
 * **IRS**: we retrieved their annual [migration data](https://www.irs.gov/statistics/soi-tax-stats-migration-data) 
 
-* **Center for Medicare and Medicaid Servicse Cost reports**: we used specifically the [Hospitals 2552-2010 form](https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports/hospital-2552-2010-form), performing heavy record linkage on the forms to massage the data into a workable format. 
+* **Center for Medicare and Medicaid Service Cost reports**: we used specifically the [Hospitals 2552-2010 form](https://www.cms.gov/data-research/statistics-trends-and-reports/cost-reports/hospital-2552-2010-form), performing heavy record linkage on the forms to massage the data into a workable format. 
 
 * **Sheps Center**: The Cecil G. Sheps Center for Health Services Research tracks rural hospital closures and conversions; we [used their list for our analysis](https://www.shepscenter.unc.edu/programs-projects/rural-health/rural-hospital-closures/).
 
@@ -82,6 +82,6 @@ Dan Gilles:
 
 Xuzhou Ding:
 * Wrote the following scripts:
-  *`IRS_Data.py`: Script that performs creation of IRS data in the file for both inflow and outflow. It records the Inflow and outflow of estimated Individual, Household, Net AGI in each county.
-  *`Regression.ipynb`: Jupyter Notebook that covers modification of dataset, logistic regression, naive bayesian classifier, and random forest classifier.
+  * `IRS_Data.py`: Script that performs creation of IRS data in the file for both inflow and outflow. It records the Inflow and outflow of estimated Individual, Household, Net AGI in each county.
+  * `Regression.ipynb`: Jupyter Notebook that covers modification of dataset, logistic regression, naive bayesian classifier, and random forest classifier.
 * Slides for own portions of project 
