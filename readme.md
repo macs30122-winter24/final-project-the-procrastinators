@@ -16,7 +16,7 @@ Towards addressing these issues, we proposed and addressed two research question
 
 We address the first research question through the usage of a difference-in-difference design, and find that rural hospital closures and conversion have little to no impact on migration behavior in their home county. This indicates that rural populations tend to "stay in place," in light of closures, a finding which redoubles the need for increased provision of medical care to rural communities suffering hospital closures.
 
-We address the second research question through the use of statistical and machine learning methods. First, we use logistic regression to determine .... We  find... <@ XUZHOU>.
+We address the second research question through the use of statistical and machine learning methods. First, we use logistic regression to determine if hospital index, county index, or rurality index is significant that explain the closure of hospital. We find that  FarP, Ruca Rural Percentage, Total Medicare Days, Total Days, and Median Income are significant estimator at 80% confidence level. Furthermore, we also test different machine learning methods. The naive bayesian and random forest method does not work well for the imbalanced dataset we have.
 
 Next, we use machine learning models to identify the top predictors for hospital closure. We find that both hospital features and county features can be used to classify hospitals with over 80% accuracy. Rurality is found to be a good predictor for closure, along with AGI outflow, suggesting that hospitals in poorer and more rural counties are more likely to close.
 
@@ -81,3 +81,7 @@ Dan Gilles:
 * Slides for own portions of project 
 
 Xuzhou Ding:
+* Wrote the following scripts:
+  *`IRS_Data.py`: Script that performs creation of IRS data in the file for both inflow and outflow. It records the Inflow and outflow of estimated Individual, Household, Net AGI in each county.
+  *`Regression.ipynb`: Jupyter Notebook that covers modification of dataset, logistic regression, naive bayesian classifier, and random forest classifier.
+* Slides for own portions of project 
