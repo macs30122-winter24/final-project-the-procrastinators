@@ -82,6 +82,6 @@ Dan Gilles:
 
 Xuzhou Ding:
 * Wrote the following scripts:
-  *`IRS_Data.py`: Script that performs creation of IRS data in the file for both inflow and outflow. It records the Inflow and outflow of estimated Individual, Household, Net AGI in each county.
-  *`Regression.ipynb`: Jupyter Notebook that covers modification of dataset, logistic regression, naive bayesian classifier, and random forest classifier.
+  * `IRS_Data.py`: Script that performs creation of IRS data in the file for both inflow and outflow. It records the Inflow and outflow of estimated Individual, Household, Net AGI in each county.
+  * `Regression.ipynb`: Jupyter Notebook that covers modification of dataset, logistic regression, naive bayesian classifier, and random forest classifier.
 * Slides for own portions of project 
