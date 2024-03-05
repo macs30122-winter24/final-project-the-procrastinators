@@ -56,6 +56,17 @@ We exclusively used Python scripts for data wrangling to increase computational 
 
 Required dependencies can be found in `requirements.txt`.
 
+### Running the Code
+
+1. Download hospital data from ... and then run ...  <@ ASHLYNN>
+
+2. Download IRS data from ... and then run ... <@ XUZHOU>
+
+3. Download ACS data with `GetCensusData.py`. Run `MergeData.py` to combine with IRS data, and then `JoinData.py` to combine with hospital data.
+
+4. Modelling and data analysis can be replicated within `MigrationAnalysis.ipynb`, `Regression.ipynb` and `Modelling.ipynb`.
+
+ 
 ### Division of Labor
 
 Ashlynn Wimer:
