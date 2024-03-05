@@ -16,7 +16,9 @@ Towards addressing these issues, we proposed and addressed two research question
 
 We address the first research question through the usage of a difference-in-difference design, and find that rural hospital closures and conversion have little to no impact on migration behavior in their home county. This indicates that rural populations tend to "stay in place," in light of closures, a finding which redoubles the need for increased provision of medical care to rural communities suffering hospital closures.
 
-We address the second research question through the use of statistical and machine learning methods. First, we use logistic regression to determine .... We  find... <@ XUZHOU>. Next, we use machine learning models to identify the top predictors for hospital closure. We find that both hospital features and county features can be used to classify hospitals with around 80% accuracy, suggesting that addressing these features is central to preventing rural hospital closures.
+We address the second research question through the use of statistical and machine learning methods. First, we use logistic regression to determine .... We  find... <@ XUZHOU>.
+
+Next, we use machine learning models to identify the top predictors for hospital closure. We find that both hospital features and county features can be used to classify hospitals with over 80% accuracy. Rurality is found to be a good predictor for closure, along with AGI outflow, suggesting that hospitals in poorer and more rural counties are more likely to close.
 
 ### Repository Overview
 
