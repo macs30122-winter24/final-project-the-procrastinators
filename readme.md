@@ -30,7 +30,7 @@ Our top-level folders contain the following:
 
 * `data`: contains all datasets created for or by our analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
 
-* `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/The%20Procrastinator's%20Final%20Procrastination.pdf) and [revised]()) and progress report.
+* `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Original).pdf) and [revised](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Edited).pdf)) and progress report.
 
 We exclusively used Python scripts for data wrangling to increase computational reproducibility.
 
