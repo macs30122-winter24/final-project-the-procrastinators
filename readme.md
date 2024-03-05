@@ -60,7 +60,7 @@ Required dependencies can be found in `requirements.txt`.
 
 1. Download hospital data from ... and then run ...  <@ ASHLYNN>
 
-2. Download IRS data from ... and then run ... <@ XUZHOU>
+2. Download IRS data from `\raw\IRS` in repo and then run `IRS_Data.py` to get irs_data.csv.
 
 3. Download ACS data with `GetCensusData.py`. Run `MergeData.py` to combine with IRS data, and then `JoinData.py` to combine with hospital data.
 
