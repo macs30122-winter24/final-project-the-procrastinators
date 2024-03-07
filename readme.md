@@ -92,7 +92,7 @@ Dan Gilles:
   * `JoinData.py`: Joins the census-level dataset with the hospital dataset to create our final dataset for analysis
 * Visualized and created models to determine the differences between closed and unclosed hospitals (`Modelling.ipynb`)
 * Slides for own portions of project 
-* Edited video into a much nicer format.
+* Edited final video
 
 Xuzhou Ding:
 * Wrote the following scripts:
