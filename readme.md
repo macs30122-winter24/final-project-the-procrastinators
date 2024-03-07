@@ -85,6 +85,7 @@ Ashlynn Wimer:
 * Slides for own portions of project (including quick generation of of a reference map through `ReferenceMapMaker.ipynb`)
 
 Dan Gilles:
+* Came up with team name
 * Wrote the following scripts:
   * `GetCensusData.py`: Acquires ACS1, ACS5 and ACSSE data on population, income and unemployment from the years 2011-2022 from the Census API
   * `GetCensusVars.py`: Saves the census variables and their explanations to a CSV file
