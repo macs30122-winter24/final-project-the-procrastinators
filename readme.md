@@ -32,6 +32,8 @@ Our top-level folders contain the following:
 
 * `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Original).pdf) and [revised](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Edited).pdf)) and progress report.
 
+* An explanatory video of the repository and our code can be found [here]https://drive.google.com/file/d/10A155JRipfftqb4u1_BsBBdS_L19iQLP/view?usp=drive_link.
+
 We exclusively used Python scripts for data wrangling to increase computational reproducibility.
 
 #### Data Sources
