@@ -22,7 +22,7 @@ Next, we use machine learning models to identify the top predictors for hospital
 
 ### Repository Overview
 
-Our top-level folders contain the following:
+A video explaining the repository and code within can be found [here](https://drive.google.com/file/d/10A155JRipfftqb4u1_BsBBdS_L19iQLP/view?usp=drive_link). Our top-level folders contain the following:
 
 * `notebooks`: contains all analysis notebooks
 
@@ -31,8 +31,6 @@ Our top-level folders contain the following:
 * `data`: contains all datasets created for or by our analysis. The `raw` subfolder contains raw data downloaded from our data sources, while `shapes` contains spatial data. Datasets outside of any subfolders were intermediate products of our data aggregation process.
 
 * `results`: contains our project presentations (both [old](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Original).pdf) and [revised](https://github.com/macs30122-winter24/final-project-the-procrastinators/blob/main/results/Final%20Presentation%20(Edited).pdf)) and progress report.
-
-* A video explaining the repository and code within can be found [here](https://drive.google.com/file/d/10A155JRipfftqb4u1_BsBBdS_L19iQLP/view?usp=drive_link).
 
 We exclusively used Python scripts for data wrangling to increase computational reproducibility.
 
